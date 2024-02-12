@@ -1,0 +1,105 @@
+* {
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.userSearch {
+  width: 420px;
+  min-width: 420px;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.inputForm {
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+}
+
+.searchInput {
+  flex: 1;
+  margin-right: 10px;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.suggestions {
+  margin-top: 20px;
+}
+
+.suggestions h4 {
+  margin-bottom: 10px;
+}
+
+.suggestions ul {
+  list-style-type: circle;
+  padding: 20px;
+}
+
+.suggestions li {
+  margin-bottom: 5px;
+}
+
+.suggestions li a {
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.suggestions li:hover {
+  text-decoration: underline;
+  cursor: pointer; 
+}
+
+.resetButton {
+margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #0056b3;
+}
+
+h3 {
+  font-size: 20px;
+  color: #0056b3;
+}
+
+img {
+  width: 416px;
+  border-radius: 50%;
+}
+
+td {
+  width: 400px;
+  border: 1px solid #333;
+  border-radius: 3px;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.reset {
+  margin-top: 20px;
+  width: 416px;
+}
+
+.resetButton {
+  width: 416px;
+ 
+}
